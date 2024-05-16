@@ -4,16 +4,25 @@
   justify-content: center;
 }
 
-.carre1{
+.carre{
     width: 200px;
     height: 200px;
     margin: 5px; 
-    background-color: darkcyan;
+   
     
 }
 
+.carre5{
+    display: flex;
+    margin-left: 850px;
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    
+    
+} 
 
-.carre2{
+/*.carre2{
     width: 200px;
     height: 200px;
     margin: 5px;
@@ -39,12 +48,4 @@
     
 }
 
-.carre5{
 
-    display: flex;
-    width: 200px;
-    height: 200px;
-    background-color: gray;
-    margin-left: 350px
-    
-} 
