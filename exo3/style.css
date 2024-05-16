@@ -1,0 +1,28 @@
+
+.carres {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.carre {
+   border: 1px solid;
+   background-color: #819171;
+   color: white;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 200px;
+    width: 200px;
+    transition: 1s;
+}
+
+.transition {
+    transform: rotate(360deg) scale(0.9);
+    background-color: #d37c74;
+}
