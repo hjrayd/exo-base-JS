@@ -2,7 +2,6 @@
 const wrapper= document.querySelector("#wrapper");
 const icones= document.querySelectorAll(".icone");
 
-
 icones.forEach (icone=> {
     icone.addEventListener('click', function() {
         icone.classList.toggle(".transition")
@@ -11,6 +10,7 @@ icones.forEach (icone=> {
         } else {
             wrapper.style.backgroundColor = icone.dataset.color 
         }
+        //on recupere les attributs de la classe "transition" pour ajouter l'ombre et faire apparaitre le texte
         icone.classList.toggle('transition') 
     })
     

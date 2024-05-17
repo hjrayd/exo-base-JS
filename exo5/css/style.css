@@ -23,12 +23,12 @@
     flex-direction: column;
     backdrop-filter: blur(10px);
     margin-left: 700px;
-
 }
 
 input {
     height: 40px;
     width: 250px;
+    padding-bottom: 10px;
 }
 
 h1 {
