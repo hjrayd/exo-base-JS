@@ -1,3 +1,4 @@
+//on definit les variables en récuperant les classes carres et la classe carre5
 const carres = document.querySelectorAll('.carre'); 
 const carre5 = document.querySelector('.carre5'); 
 
@@ -13,14 +14,5 @@ carres.forEach (carre=> {
         carre5.style.setProperty("background-color", color);
         //modifier le contenu de lelement carre5 pour afficher la couleur ercuperer
         carre5.innerHTML=color;
-})
-
-//recuperer couleur dans une var couleur fond de l'element ou je clique
-
-//recuperer couleur fond 
-
-//modifier la couleur du carre du bas
-//pour modifier il faut recuperer dans une var
-
-
+    })
 })
