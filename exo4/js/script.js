@@ -7,7 +7,7 @@ icones.forEach (icone=> {
     //la fonction s'appliquera dessus lorsqu'on cliquera sur l'une d'elles
     icone.addEventListener('click', function() {
         icone.classList.toggle(".transition")
-        if(!icone.classList.contains(".transtion")) {
+        if(!icone.classList.contains(".transition")) {
             wrapper.style.backgroundColor = "#bdbdbd"
         } else {
             wrapper.style.backgroundColor = icone.dataset.color 
